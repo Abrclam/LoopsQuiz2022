@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int shuffle;
+cout << "How many shuffles would you like?" << endl;
+cin >> shuffle;
+
+for (shuffle; shuffle > 0; shuffle -= 1) {
+		cout << "shuffle... " << endl;
+	}
+}
